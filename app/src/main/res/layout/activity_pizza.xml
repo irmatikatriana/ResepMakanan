@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCFFCC"
+    android:orientation="vertical"
+    tools:context=".PizzaActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="160dp"
+            android:paddingTop="20dp"
+            android:text="Pizza "
+            android:textSize="30sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pizza"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tepung terigu protein sedang 1/2 kg\n2. Fermipan 5 gr\n3. Minyak sayur 3 sdm\n4. Garam 1/2 sdt\n5. Gula pasir 2 sdm\n6. Air 250 ml"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan untuk Topping : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Saus tomat secukupnya\n2. Keju mozarela secukupnya (dipotong-potong)\n3. Bawang bombay 2 buah (dicincang halus)\n4. Bila Anda suka, bisa jugamenggunakan topping berikut : ikan tuna, sosis, bakso, daging asap (ham), ayam, dsb"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan :"
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Siapkan wadah, lalu masukkan: tepung terigu, fermipan, gula pasir, garam dan minyak sayur , aduk dan campur sampai merata\n2. Sambil menguleni tepung, tambahkan air sedikit demi sedikit hingga terbentuk menjadi adonan\n3. Tutup wadah dengan kain, dan biarkan dulu adonan di dalamnya\n4. Siapkan wajan, lalu tumis bawang bombay sampai berbau harum, tambahkan topping sesuai selera Anda ke dalam tumisan\n5. Masukkan secukupnya saus tomat dan saus cabai\n6. Adonan yang telah cukup lama didiamkan lalu digilas agar berbentuk pipih. Tentukan ketebalan adonan roti sesuai selera Anda. Makin tipis adonan, maka makin renyah rasanya\n7. Siapkan wajan teflon, kemudian panaskan dan cairkan 1 sdm mentega\n8. Letakkan adonan pizza diatas wajan, taburi dengan keju mozarella\n9. Selama memasak, tutupilah wajan dengan penutupnya, agar benar-benar matang dan keju mencair dengan sempurna"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="160dp"
+            android:paddingTop="20dp"
+            android:text="Pizza "
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pizza"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

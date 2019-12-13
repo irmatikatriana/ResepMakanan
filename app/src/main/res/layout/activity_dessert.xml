@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCFFCC"
+    android:orientation="vertical"
+    tools:context=".DessertActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCCFFCC"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Japanese Cheese Cake"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ciskek"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-130 ml Susu Cair\n-100 gr Cream Cheese\n-100 gr Unsalted Butter\n-100 gr Unsalted Butter\n-60 gr Tepung Maizena\n-130 gr Gula\n-8 btr Kuning Telur\n-Kertas Roti\n-Gula Bubuk sebagai hiasan"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Masukkan cream cheese, butter dan susu ke dalam panci kecil\n2. Panaskan dengan api kecil hingga butter dan cream cheese mencair\n3. Kocok kuning telur menggunakan pengocok telur\n4. Tuang adonan tadi ke dalam telur, aduk hingga rata\n5. Ayak tepung terigu dan maizena ke dalam adonan\n6. Aduk hingga adonan merata sempurna tanpa gumpalan\n7. Kocok putih telur menggunakan mixer hingga kaku. Anda bisa mulai memanaskan oven dengan suhu 160°C\n8. Setelah putih telur kaku, masukkan gula pasir\n9. Tuang putih telur ke dalam adonan, aduk menggunakan spatula\n10. Tuang adonan ke dalam loyang yang telah dialasi kertas roti\n11. Panggang dalam oven bersuhu 160°C selama 25 menit dengan teknik au bain marie*. Lalu turunkan suhu hingga 135°C dan panggang lagi selama 50 menit\n12. Tusuk cake dengan tusuk gigi, dan pastikan tidak ada lagi adonan yang tertinggal di tusuk gigi. Lalu keluarkan cake dari oven. Biarkan beberapa saat hingga dingin, lalu keluarkan cake dari loyang dan taburi dengan gula halus"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="130dp"
+            android:paddingTop="50dp"
+            android:paddingBottom="10dp"
+            android:text="Es Pisang Ijo"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/eepisangijo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-100 gram tepung terigu\n-100 ml air\n-1 sdt margarin\n-Garam secukupnya\n-Pasta pandan secukupnya\n-3 buah pisang raja ukuran sedang"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan Vla : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-200 ml santan (santan kara 65 ml + air)\n-25 gram gula pasir\n-3 sdt tepung terigu\n-Garam secukupnya\n-Vanili cair secukupnya"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan lain : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Es batu atau es serut secukupnya\n-Sirup DHT atau sirup cocopandan secukupnya"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Untuk membuat kulitnya, pertama siapkan panci lalu rebus air, margarin, garam dan pasta pandan. Rebus sampai mendidih lalu kecilkan api, masukkan tepung terigu sambil diaduk cepat. Matikan api\n2. Setelah adonan sudah agak dingin, remas-remas adonan hingga semua menyatu. Jika warnanya kurang hijau bisa menambahkan pasta pandan\n3. Kupas pisang lalu bungkus dengan adonan kulit tadi\n4. Panaskan kukusan, bungkus tutupnya dengan serbet bersih. Olesi dengan minyak di dalam wadah pisang agar pisang tidak lengket. Lalu kukus selama 10-15 menit. Angkat dan potong-potong sesuai selera\n5. Untuk membuat vlanya, pertama rebus santan, gula, garam dan vanili cair. Aduk dengan whisker sampai mendidih. Kemudian larutkan tepung dengan air. Saat santan sudah mendidih, masukkan larutan tepung sambil diaduk terus dengan whisker sampai mengental dan mendidih. Matikan api\n6. Siapkan mangkuk atau piring. Letakkan pisang, es batu atau es serut dan vla\n7. Tuangkan sirupnya dan es pisang ijo pun siap disajikan"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

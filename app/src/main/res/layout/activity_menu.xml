@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AYAM"
+            android:background="#FFCCFFCC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="160dp"/>
+        <ImageView
+            android:id="@+id/ayam"
+            android:onClick="goreng"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:paddingLeft="100dp"
+            android:src="@drawable/animeayam"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAGING"
+            android:background="#FFCCFFCC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="150dp"/>
+
+        <ImageView
+            android:id="@+id/sapi"
+            android:onClick="sapi"
+            android:layout_width="500dp"
+            android:layout_height="250dp"
+            android:paddingRight="67dp"
+            android:src="@drawable/daging" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESSERT"
+            android:background="#FFCCFFCC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="150dp"/>
+        <ImageView
+            android:id="@+id/kue"
+            android:onClick="kue"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/dessert"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PIZZA"
+            android:background="#FFCCFFCC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="150dp"/>
+        <ImageView
+            android:id="@+id/pitza"
+            android:onClick="pitza"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/pizza"/>
+        <TextView
+            android:id="@+id/teks"
+            android:onClick="list"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="MENU LAINNYA"
+            android:background="#FFCCFFCC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="95dp"
+            android:paddingTop="25dp"/>
+        <TextView
+            android:id="@+id/kritik"
+            android:onClick="saran"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="KRITIK dan SARAN"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="74dp"
+            android:paddingTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

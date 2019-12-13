@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCCFFCC"
+    tools:context=".DagingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="110dp"
+            android:paddingTop="20dp"
+            android:text="Beef Teriyaki"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beefteriyaki"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 500 gr daging sapi\n2. 1 buah paprika merah/hijau (bisa skip)\n3. 1 buah bawang bombay\n4. 1 sdt kaldu sapi bubuk\n5. 1/2 gula merah pengganti madu\n"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bumbu Marinasi : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 4 siung bawang putih parut\n2. 2 sdm saos tiram\n3. 1 sdt garam\n4. 2 sdm saos tiram\n5. 1 ruas jahe parut\n6. 1 sdt lada bubuk\n7. Kecap manis sesuai selera"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan :"
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Cuci bersih daging dan iris tipis. Masukan bumbu marinasi, aduk-aduk dan biarkan bumbu meresap 1-2 jam\n2. Potong bawang bombay dan potong kotak paprika(buang bijinya). Masukan kedalam minyak yg yg sudah panas\n3. Masukan daging yg sudah di marinasi, aduk-aduk sampai warna kecoklatan,tambahkan gula merah, kaldu sapi bubuk,Masukan 1 gelas air,tutup sampai daging empuk dan air surut (paprika bisa dimasukan saat air mulai surut)"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="130dp"
+            android:paddingTop="50dp"
+            android:text="Sop Daging"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sopdaging"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-	1 liter air\n-300 g daging lemusir sapi, potong-potong\n-1 sdm mentega 100 g bawang bombay, iris kasar\n-1 sdm kaldu ayam bubuk atau blok\n-½ cm biji pala, memarkan\n-½ sdt merica bubuk\n-2 sdt garam\n-1 kaleng kacang merah, tiriskan\n-100 g wortel, kupas, potong-potong\n-1 batang daun bawang, iris kasar"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan :"
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Didihkan air, rebus daging dengan pai kecil hingga daging lunak\n2. Tumis bawang bombay hingga layu\n3. Angkat, masukkan ke dalam rebusan daging\n4. Tambahkan kaldu ayam, biji pala, merica dan garam\n5. Didihkan kembali dengan api kecil\n6. Masukkan wortel dan kacang merah\n7. Rebus hingga wortel lunak, masukkan daun bawang\n8. Angkat dan sajikan hangat"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

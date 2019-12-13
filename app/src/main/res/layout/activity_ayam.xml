@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCCFFCC"
+    tools:context=".AyamActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="90dp"
+            android:paddingTop="20dp"
+            android:text="Ayam Sarundeng"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ayamgorengsarundeng"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- 500 gram daging ayam, potong-potong\n- 150 gram kelapa parut\n- 3 lembar daun salam, sobek-sobek\n- 1 batang serai, digeprek\n- Air secukupnya\n- Garam dan gula sesuai selera\n- Minyak goreng"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bumbu yang Dihaluskan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- 6 butir bawang merah\n- 4 siung bawang putih\n- 4 butir kemiri\n- 1 sdm ketumbar butiran\n- 1 sdt merica butiran\n- 2 cm jahe\n- 1 sdm ketumbar butiran\n- 1/2 ruas jari lengkuas\n- 1/2 ruas jari kunyit\n"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tumis bumbu halus, serai, daun salam dan daun jeruk hingga bumbu matang\n2. Masukkan daging ayam, aduk sebentar lalu tambahkan air secukupnya hingga ayam terendam. Ungkep ayam, bila air sudah setengah menyusut, baru bubuhi gula dan garam secukupnya\n3. Sisakan air ungkepan sedikit untuk kelapanya, setelah ayam selesai diungkep lalu goreng hingga kecokelatan, tiriskan\n4. Campurkan kelapa parut ke dalam air ungkepan ayam, aduk rata kemudian goreng dengan sedikit minyak hingga serundeng kecokelatan dan matang, gunakan api kecil, tiriskan dengan tisu dapur."
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCCFFCC"
+            android:paddingLeft="120dp"
+            android:paddingTop="70dp"
+            android:text="Ayam Kecap"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ayamkecap"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- 2 batang daun bawang\n- 1/2 sendok teh merica bubuk\n- 500 gram ayam potong\n- 5 buah cabai rawit\n- 100 ml air\n- 2 buah cabai merah besar (opsional)\n- 4 siung bawang putih\n- 4 sendok makan kecap manis\n- 1/2 ruas jahe\n- 1/2 buah bawang bombay\n- 1 1/2 sendok teh garam\n- 1 buah tomat\n- Minyak goreng secukupnya"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Pembuatan : "
+            android:background="#FFCCFFCC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Potong ayam jadi enam bagian. Memarkan bawang putih dan jahe. Iris memanjang bawang bombay, kemudian iris menyerong daun bawang dan cabai merah besar. Potong-potong tomat seukuran dadu dan iris halus cabai rawit\n2. Panaskan minyak, lalu goreng ayam sampai setengah matang\n3. Tumis jahe, bawang bombay, dan bawang putih hingga layu. Masukkan ayam, aduk sebentar\n4. Tambahkan kecap manis, air, garam, dan lada. Masak sampai air menyusut dan ayam matang\n5. Selanjutnya masukkan tomat dan daun bawang\n6. Aduk sebentar sampai cukup layu"
+            android:background="#FFCCFFCC"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
